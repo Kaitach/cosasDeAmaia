@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "name": "Cuna colecho",
+    "description": "Cuna colecho regulable en altura para dormir junto a mamá",
+    "completed": true
+  },
+  {
+    "id": 2,
+    "name": "Coche",
+    "description": "Carrito de paseo para salir con Amaia",
+    "completed": true
+  },
+  {
+    "id": 3,
+    "name": "Silla auto",
+    "description": "Silla de auto grupo 0+ homologada",
+    "completed": false
+  },
+  {
+    "id": 4,
+    "name": "Cambiador",
+    "description": "Cambiador con cajones para organizar pañales y ropa",
+    "completed": false
+  },
+  {
+    "id": 5,
+    "name": "Ropero",
+    "description": "Armario para guardar la ropa de Amaia",
+    "completed": false
+  },
+  {
+    "id": 6,
+    "name": "Portabebé",
+    "description": "Portabebé ergonómico para llevar a Amaia cerca",
+    "completed": true
+  },
+  {
+    "id": 7,
+    "name": "Mochila maternal",
+    "description": "Mochila espaciosa para llevar todo lo necesario",
+    "completed": true
+  },
+  {
+    "id": 8,
+    "name": "Sábanas",
+    "description": "Juego de sábanas suaves para la cuna",
+    "completed": false
+  },
+  {
+    "id": 9,
+    "name": "Manta",
+    "description": "Manta suave para arropar a Amaia",
+    "completed": false
+  },
+  {
+    "id": 10,
+    "name": "Bañito",
+    "description": "Bañera pequeña para el baño de Amaia",
+    "completed": false
+  },
+  {
+    "id": 11,
+    "name": "Toalla con capucha",
+    "description": "Toalla suave con capucha para después del baño",
+    "completed": false
+  },
+  {
+    "id": 12,
+    "name": "Baberos",
+    "description": "Set de baberos para proteger la ropa",
+    "completed": false
+  },
+  {
+    "id": 13,
+    "name": "Aspirador nasal",
+    "description": "Aspirador nasal para limpiar la nariz de Amaia",
+    "completed": false
+  },
+  {
+    "id": 14,
+    "name": "Termómetro",
+    "description": "Termómetro digital para controlar la temperatura",
+    "completed": false
+  },
+  {
+    "id": 15,
+    "name": "Extractor de leche",
+    "description": "Extractor eléctrico para la lactancia",
+    "completed": false
+  },
+  {
+    "id": 16,
+    "name": "Frascos o bolsas para leche",
+    "description": "Recipientes para almacenar la leche materna",
+    "completed": false
+  },
+  {
+    "id": 17,
+    "name": "Jabón y shampoo",
+    "description": "Productos de higiene especiales para Amaia",
+    "completed": false
+  },
+  {
+    "id": 18,
+    "name": "Chupete",
+    "description": "Chupetes anatómicos para calmar a Amaia",
+    "completed": false
+  },
+  {
+    "id": 19,
+    "name": "Mamadera",
+    "description": "Biberones anticólicos con tetinas",
+    "completed": false
+  },
+  {
+    "id": 20,
+    "name": "Peine",
+    "description": "Peine suave para el cabello de Amaia",
+    "completed": false
+  },
+  {
+    "id": 21,
+    "name": "Cortauñas o tijerita",
+    "description": "Tijeras especiales para cortar las uñas de Amaia",
+    "completed": false
+  },
+  {
+    "id": 22,
+    "name": "Juguetes / libros",
+    "description": "Juguetes y libros apropiados para recién nacido",
+    "completed": false
+  },
+  {
+    "id": 23,
+    "name": "Organizador de juguetes",
+    "description": "Caja o canasta para organizar los juguetes",
+    "completed": false
+  },
+  {
+    "id": 24,
+    "name": "Alfombra antigolpes",
+    "description": "Alfombra acolchada para el área de juego",
+    "completed": false
+  },
+  {
+    "id": 25,
+    "name": "Gimnasio",
+    "description": "Gimnasio de actividades para estimular a Amaia",
+    "completed": false
+  }
+]
