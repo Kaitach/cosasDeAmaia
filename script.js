@@ -3,7 +3,7 @@ let babyItems = []
 let currentView = "cards" // Added view state tracking
 let currentSort = "original" // original, completed-first, pending-first
 
-// DOM elements
+// DOM element
 const itemsContainer = document.getElementById("items-container")
 const completedCount = document.getElementById("completed-count")
 const pendingCount = document.getElementById("pending-count")
