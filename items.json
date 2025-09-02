@@ -148,5 +148,23 @@
     "name": "Gimnasio",
     "description": "Gimnasio de actividades para estimular a Amaia",
     "completed": false
+  },
+  {
+    "id": 26,
+    "name": "Calienta mamadera",
+    "description": "Aparato para calentar mamaderas rápidamente",
+    "completed": false
+  },
+  {
+    "id": 27,
+    "name": "Monitor de bebé",
+    "description": "Monitor de audio/video para controlar a Amaia",
+    "completed": false
+  },
+    {
+    "id": 28,
+    "name": "Ps5",
+    "description": "Ps5 para que Amaia vea jugar al padre y formen un mejor vinculo",
+    "completed": false
   }
 ]
