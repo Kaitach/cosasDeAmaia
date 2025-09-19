@@ -1,7 +1,7 @@
 // Global variables
 let babyItems = []
 let currentView = "cards" // Added view state tracking
-let currentSort = "original" // original, completed-first, pending-first
+let currentSort = "pending-first" // default: pendientes primero
 
 // DOM element
 const itemsContainer = document.getElementById("items-container")
@@ -22,6 +22,7 @@ async function loadItems() {
     babyItems = await response.json()
     renderItems()
     updateStats()
+    updateSortButton() // mostrar texto correcto en el botón
   } catch (error) {
     console.error("Error loading baby items:", error)
     showErrorMessage()
@@ -169,23 +170,22 @@ function sortItems() {
   return sortedItems
 }
 
-function cycleSortOrder() {
-  const sortOptions = ["original", "completed-first", "pending-first"]
+function updateSortButton() {
   const sortLabels = {
-    original: "Orden Original",
     "completed-first": "Listos Primero",
     "pending-first": "Pendientes Primero",
+    "original": "Orden Original",
   }
+  sortBtn.innerHTML = `<span class="view-icon">⇅</span>${sortLabels[currentSort]}`
+}
 
+function cycleSortOrder() {
+  const sortOptions = ["completed-first", "pending-first"]
   const currentIndex = sortOptions.indexOf(currentSort)
   const nextIndex = (currentIndex + 1) % sortOptions.length
   currentSort = sortOptions[nextIndex]
 
-  // Update button text
-  const sortLabel = sortLabels[currentSort]
-  sortBtn.innerHTML = `<span class="view-icon">⇅</span>${sortLabel}`
-
-  // Re-render items with new sort
+  updateSortButton()
   renderItems()
 }
 
@@ -200,10 +200,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // Add some interactive effects
 document.addEventListener("DOMContentLoaded", () => {
-  // Add smooth scrolling for better UX
   document.documentElement.style.scrollBehavior = "smooth"
 
-  // Add intersection observer for animations
   const observerOptions = {
     threshold: 0.1,
     rootMargin: "0px 0px -50px 0px",
@@ -217,12 +215,10 @@ document.addEventListener("DOMContentLoaded", () => {
     })
   }, observerOptions)
 
-  // Observe all item cards when they're created
   const observeCards = () => {
     const cards = document.querySelectorAll(".item-card")
     cards.forEach((card) => observer.observe(card))
   }
 
-  // Call after items are loaded
   setTimeout(observeCards, 100)
 })

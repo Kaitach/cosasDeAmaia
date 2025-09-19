@@ -7,7 +7,7 @@
 body {
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   /* Updated to more vibrant pink gradient */
-  background: linear-gradient(135deg, #e91e63 0%, #f06292 50%, #f8bbd9 100%);
+  background: linear-gradient(135deg, #cd9be5 0%, #cd9be5 50%, #cd9be5 100%);
   min-height: 100vh;
   color: #333;
   line-height: 1.6;
@@ -33,8 +33,8 @@ body {
 }
 
 .subtitle {
-  font-size: 1.2rem;
-  font-weight: 300;
+  font-size: 1.4rem;
+  font-weight: 370;
   opacity: 0.9;
 }
 
@@ -66,7 +66,7 @@ body {
   font-size: 2rem;
   font-weight: 700;
   /* Updated to more vibrant pink */
-  color: #e91e63;
+  color: #cd9be5;
   margin-bottom: 0.25rem;
 }
 
@@ -104,7 +104,7 @@ body {
   right: 0;
   height: 4px;
   /* Updated to more vibrant pink gradient */
-  background: linear-gradient(90deg, #e91e63, #f06292);
+  background: linear-gradient(90deg, #cd9be5, #f06292);
   opacity: 0;
   transition: opacity 0.3s ease;
 }
@@ -164,7 +164,7 @@ body {
 
 .item-card.pending .item-description {
   /* Updated pending description color */
-  color: #c2185b;
+  color: #cd9be5;
 }
 
 .item-status {
@@ -188,7 +188,7 @@ body {
 .item-card.pending .item-status {
   /* Updated pending status styling to vibrant pink */
   background: rgba(233, 30, 99, 0.2);
-  color: #ad1457;
+  color: #cd9be5;
 }
 
 .status-icon {
@@ -217,7 +217,7 @@ body {
 
 .item-card.pending .status-icon {
   /* Updated pending icon color to vibrant pink */
-  background: #e91e63;
+  background: #cd9be5;
   position: relative;
 }
 
@@ -263,9 +263,9 @@ body {
 
 .view-btn.active {
   /* Updated active button gradient to vibrant pink */
-  background: linear-gradient(135deg, #e91e63, #f06292);
+  background: linear-gradient(135deg, #cd9be5, #f06292);
   color: white;
-  border-color: #e91e63;
+  border-color: #cd9be5;
 }
 
 .view-icon {
@@ -349,7 +349,7 @@ body {
 
 .item-list-row.pending .list-item-name {
   /* Updated list pending text color */
-  color: #ad1457;
+  color: #cd9be5;
 }
 
 .list-item-description {
@@ -371,16 +371,16 @@ body {
 /* Added styling for sort button */
 .sort-btn {
   background: rgba(255, 255, 255, 0.8);
-  border: 2px solid #e91e63;
+  border: 2px solid #cd9be5;
 }
 
 .sort-btn:hover {
-  background: linear-gradient(135deg, #e91e63, #f06292);
+  background: linear-gradient(135deg, #cd9be5, #f06292);
   color: white;
 }
 
 .sort-btn.active {
-  background: linear-gradient(135deg, #ad1457, #e91e63);
+  background: linear-gradient(135deg, #cd9be5, #cd9be5);
   color: white;
 }
 

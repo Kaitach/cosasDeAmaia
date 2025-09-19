@@ -15,7 +15,7 @@
     "id": 3,
     "name": "Silla auto",
     "description": "Silla de auto grupo 0+ homologada",
-    "completed": false
+    "completed": true
   },
   {
     "id": 4,
