@@ -27,7 +27,7 @@
     "id": 5,
     "name": "Ropero",
     "description": "Armario para guardar la ropa de Amaia",
-    "completed": false
+    "completed": true
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@
     "id": 8,
     "name": "Sábanas",
     "description": "Juego de sábanas suaves para la cuna",
-    "completed": false
+    "completed": true
   },
   {
     "id": 9,
@@ -57,13 +57,13 @@
     "id": 10,
     "name": "Bañito",
     "description": "Bañera pequeña para el baño de Amaia",
-    "completed": false
+    "completed": true
   },
   {
     "id": 11,
     "name": "Toalla con capucha",
     "description": "Toalla suave con capucha para después del baño",
-    "completed": false
+    "completed": true
   },
   {
     "id": 12,
@@ -105,7 +105,7 @@
     "id": 18,
     "name": "Chupete",
     "description": "Chupetes anatómicos para calmar a Amaia",
-    "completed": false
+    "completed": true
   },
   {
     "id": 19,
