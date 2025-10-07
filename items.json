@@ -21,7 +21,7 @@
     "id": 4,
     "name": "Cambiador",
     "description": "Cambiador con cajones para organizar pañales y ropa",
-    "completed": false
+    "completed": true
   },
   {
     "id": 5,
@@ -159,7 +159,7 @@
     "id": 27,
     "name": "Monitor de bebé",
     "description": "Monitor de audio/video para controlar a Amaia",
-    "completed": false
+    "completed": true
   },
     {
     "id": 28,
