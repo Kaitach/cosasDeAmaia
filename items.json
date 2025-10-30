@@ -51,7 +51,7 @@
     "id": 9,
     "name": "Manta",
     "description": "Manta suave para arropar a Amaia",
-    "completed": false
+    "completed": true
   },
   {
     "id": 10,
@@ -69,7 +69,7 @@
     "id": 12,
     "name": "Baberos",
     "description": "Set de baberos para proteger la ropa",
-    "completed": false
+    "completed": true
   },
   {
     "id": 13,
