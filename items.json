@@ -93,7 +93,7 @@
     "id": 16,
     "name": "Frascos o bolsas para leche",
     "description": "Recipientes para almacenar la leche materna",
-    "completed": false
+    "completed": true
   },
   {
     "id": 17,
@@ -117,13 +117,13 @@
     "id": 20,
     "name": "Peine",
     "description": "Peine suave para el cabello de Amaia",
-    "completed": false
+    "completed": true
   },
   {
     "id": 21,
     "name": "Cortauñas o tijerita",
     "description": "Tijeras especiales para cortar las uñas de Amaia",
-    "completed": false
+    "completed": true
   },
   {
     "id": 22,
@@ -141,13 +141,13 @@
     "id": 24,
     "name": "Alfombra antigolpes",
     "description": "Alfombra acolchada para el área de juego",
-    "completed": false
+    "completed": true
   },
   {
     "id": 25,
     "name": "Gimnasio",
     "description": "Gimnasio de actividades para estimular a Amaia",
-    "completed": false
+    "completed": true
   },
   {
     "id": 26,
