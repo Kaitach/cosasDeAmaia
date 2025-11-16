@@ -99,7 +99,7 @@
     "id": 17,
     "name": "Jabón y shampoo",
     "description": "Productos de higiene especiales para Amaia",
-    "completed": false
+    "completed": true
   },
   {
     "id": 18,
