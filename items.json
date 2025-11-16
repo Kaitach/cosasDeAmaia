@@ -87,7 +87,7 @@
     "id": 15,
     "name": "Extractor de leche",
     "description": "Extractor eléctrico para la lactancia",
-    "completed": false
+    "completed": true
   },
   {
     "id": 16,
