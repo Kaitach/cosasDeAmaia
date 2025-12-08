@@ -81,7 +81,7 @@
     "id": 14,
     "name": "Termómetro",
     "description": "Termómetro digital para controlar la temperatura",
-    "completed": false
+    "completed": true
   },
   {
     "id": 15,
@@ -153,7 +153,7 @@
     "id": 26,
     "name": "Calienta mamadera",
     "description": "Aparato para calentar mamaderas rápidamente",
-    "completed": false
+    "completed": true
   },
   {
     "id": 27,
